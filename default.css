@@ -1,31 +1,59 @@
+body{
+    background-color:lightblue;
+    text-align: center;
+}
+h1{
+    font-size: 75px;
+}
 #calculator{
+    border-radius: 12px;
+    background-color: grey;
     display:flex;
     flex-direction: column;
     align-items: center;
     border:solid black; 
-    width:500px;
+    width:600px;
+    height: 700px;
     margin:auto;
     padding: 1em;
 }
+#operationScreen{
+    background-color: white;
+    width:95%;
+    height:30px;
+    border-top: black solid;
+    border-right: black solid;
+    border-left: black solid;
+    text-align: right;
+    font-size:20px;
+}
 #calculatorScreen{
-    border: black solid;
-    width: 400px;
+    background-color: white;
+    border-bottom: black solid;
+    border-right: black solid;
+    border-left: black solid;
+    width: 95%;
     text-align: right;
     height: 60px;
     font-size: 50px;
     font-weight: 900;
-    margin: .5em;
-
+    margin: 0 .5em .5em .5em;
 }
+
 #calcBtns{
     display:flex;
 }
 #calculatorInput{
     display:flex;
     flex-flow: wrap;
-    width:400px;
+    width: 75%;
     justify-content: center;
     gap: 20px;
+}
+.calculatorButton,.calculatorOpButton{
+    background-color: lightgray;
+    border-radius:10px;
+    box-shadow: 5px 10px    black;
 }
 .calculatorButton{
     width: 100px;
@@ -33,8 +61,16 @@
     font-size: 30px;
     font-weight: 700;
 }
+.calculatorOpButton{
+    width: 90%;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+}
 #calculatorOperations{
     display:flex;
     flex-direction: column;
-    gap:20px;
+    align-items: center;
+    width: 25%;
+    gap:15px;
 }
