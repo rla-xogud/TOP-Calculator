@@ -13,10 +13,24 @@ h1{
     align-items: center;
     border:solid black; 
     width:600px;
+<<<<<<< HEAD
     height: 600px;
+=======
+    height: 700px;
+>>>>>>> 49de6f06f77c7f0959787d763398a6f888af7784
     margin:auto;
     padding: 1em;
     box-shadow: 5px 5px rgb(37, 37, 37);
+}
+#operationScreen{
+    background-color: white;
+    width:95%;
+    height:30px;
+    border-top: black solid;
+    border-right: black solid;
+    border-left: black solid;
+    text-align: right;
+    font-size:20px;
 }
 #operationScreen{
     background-color: white;
@@ -54,7 +68,11 @@ h1{
 .calculatorButton,.calculatorOpButton{
     background-color: lightgray;
     border-radius:10px;
+<<<<<<< HEAD
     box-shadow: 5px 5px black;
+=======
+    box-shadow: 5px 10px    black;
+>>>>>>> 49de6f06f77c7f0959787d763398a6f888af7784
 }
 .calculatorButton{
     width: 28%;
